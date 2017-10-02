@@ -1,0 +1,13 @@
+
+
+
+
+Comando para clonagem de repositorio do GitHub
+	git clone caminho para o repositorio
+
+Comando para mostrar o status dos arquivos
+	git status
+
+Comando para mostrar o histórico de modificações
+	git log
+	git whatchanged
