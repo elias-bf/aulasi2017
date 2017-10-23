@@ -25,3 +25,9 @@
 
 6. Se quiser buscar os dados do repositório, utilize o comando abaixo
 	git pull
+
+
+-----
+Comados extras
+	git log nomeDoArquivo: mostra o historico de mudanças sobre este arquivo
+	git status: mostra o status dos arquivos que estão sobre a gerencia de configuração
