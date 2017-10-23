@@ -1,0 +1,27 @@
+1. Clonar o projeto
+	git clone https://github.com/elias-bf/aulasi2017.git
+	
+	será criada uma pasta com o nome do projeto (aulasi2017)
+	entre nessa pasta para fazer os comandos a seguir
+
+
+2. Criar um arquivo novo com o conteúdo que vc quiser e com o seu nome "seunome.txt"
+3. Adiciona este arquivo para gerenciamento do git
+	git add nomeArquivo
+
+4. Gerar uma versão deste arquivo (fazer commit)
+	4.1 antes de fazer o  primeiro commit do projeto, vc deve configurar seu usuário e email
+		git config user.name "Seu nome"
+		git config user.email "seuemail@provedor.com"
+
+	4.2 fazer o commit
+		git commit -m "Comentários sobre o seu commit (inventar)"
+
+5. Enviar as mudanças para o repositorio remoto
+	git push
+
+	Este comando solicita que seu usuario e senha do github seja informado 
+	(é necessário ter permissão para enviar dados para este repositório)
+
+6. Se quiser buscar os dados do repositório, utilize o comando abaixo
+	git pull
